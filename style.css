@@ -1,4 +1,6 @@
 body {
+  background-image: url(https://images.pexels.com/photos/1312488/pexels-photo-1312488.jpeg?cs=srgb&dl=pexels-emiliano-arano-1312488.jpg&fm=jpg);
+  background-size: cover;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -6,22 +8,39 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+
+.container{
+  color: rgb(15, 14, 14);
+  border: 10px solid  #92CEEB ;
+  background: #92CEEB ;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border-radius: 8%;
+  box-shadow: 1px;
 }
 
 .inputs {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   height: 100%;
   gap: 1rem;
 }
 
+.Include{
+  align-items: left;
+  padding-left: 90px;
+}
+
+.len{
+  padding-left: 20px;
+}
+
 .generate-btn {
   width: 100%;
   height: 2rem;
-  border: none;
+  border-color: black;
   border-radius: 0.5rem;
   background-color: #000;
   color: #fff;
@@ -29,6 +48,11 @@ body {
   font-weight: 600;
   cursor: pointer;
   margin-top: 1rem;
+}
+
+.generate-btn:hover {
+  background: #64BED8;
+  color: rgb(12, 12, 12);
 }
 
 .password {

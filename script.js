@@ -18,6 +18,7 @@ const generatePassword = () => {
   const isIncludeUppercase =
     document.getElementById("include-uppercase").checked;
 
+
   let charSet = "";
 
   if (isIncludeSymbol) charSet += symbols;
