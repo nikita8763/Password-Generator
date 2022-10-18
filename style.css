@@ -18,6 +18,10 @@ body {
   font-family:Georgia, 'Times New Roman', Times, serif;
   border-radius: 8%;
   box-shadow: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .inputs {
@@ -26,15 +30,18 @@ body {
   width: 100%;
   height: 100%;
   gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .Include{
-  align-items: left;
-  padding-left: 90px;
+  position: relative;
+  left: 30%;
+  padding: 8px 0px;
 }
 
 .len{
-  padding-left: 20px;
+  padding: 10px;
 }
 
 .generate-btn {
